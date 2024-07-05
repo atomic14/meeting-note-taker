@@ -2,3 +2,6 @@ pyaudio
 openai
 pynput
 python-dotenv
+ane_transformers
+openai-whisper
+coremltools
