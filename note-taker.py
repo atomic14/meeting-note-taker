@@ -113,5 +113,9 @@ def main():
     summary = summarize_text(text)
     print(f"Meeting Summary:\n\n {summary}")
 
+    # write the summary to a file
+    with open(f"{filename}.summary.md", "w") as f:
+        f.write(summary)
+
 if __name__ == "__main__":
     main()

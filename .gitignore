@@ -164,3 +164,4 @@ cython_debug/
 # Audio files and transcriptions
 *.wav
 *.wav.txt
+*.wav.summary.md
