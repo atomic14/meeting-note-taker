@@ -72,7 +72,7 @@ def listen_for_keypress():
         listener.join()
 
 def convert_audio_to_text(filename):
-    command = f"./main --model ../models/ggml-medium.en.bin {filename} --output-txt"
+    command = f"./whisper.cpp/main --model ./models/ggml-medium.en.bin {filename} --output-txt"
     result = subprocess.run(command, shell=True, stdout=subprocess.PIPE)
     # read in the output file - it is the filename + ".txt"
     with open(f"{filename}.txt", "r", encoding='utf8') as f:
