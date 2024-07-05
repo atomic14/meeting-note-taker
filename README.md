@@ -24,6 +24,7 @@ bash ./models/download-ggml-model.sh  medium.en
 # Setup the python app
 
 ```bash
+brew install portaudio
 python -m venv venv
 . ./venv/bin/activate
 pip install -r requirements.txt
