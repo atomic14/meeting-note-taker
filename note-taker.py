@@ -85,9 +85,7 @@ def summarize_text(text):
 """
     messages = [
       { 'role': 'user', 'content': prompt}
-    ]
-    # get OpenAI to summarize the transcript in a funny whitty way
-    
+    ]    
     chat_completion = client.chat.completions.create(model="gpt-4o",
     messages=messages)
     return chat_completion.choices[0].message.content
