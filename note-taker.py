@@ -79,7 +79,7 @@ def convert_audio_to_text(filename):
         return f.read()
 
 def summarize_text(text):
-    prompt = f"""The following is a transcript from a meeting. Turn this into some more useful notes that I can use to refresh my memoery before the next meeting.
+    prompt = f"""The following is a transcript from a meeting. Turn this into some useful notes that I can use to refresh my memory before the next meeting.
     
 {text}
 """
