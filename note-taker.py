@@ -83,7 +83,6 @@ def summarize_text(text):
     
 {text}
 """
-    print(prompt)
     messages = [
       { 'role': 'user', 'content': prompt}
     ]
