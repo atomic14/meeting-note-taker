@@ -1,0 +1,4 @@
+pyaudio
+openai
+pynput
+python-dotenv
